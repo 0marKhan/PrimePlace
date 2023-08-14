@@ -19,6 +19,7 @@ const SaleEstateFrontList = () => {
             photo={rentEstate.coverPhoto.url}
             price={rentEstate.price}
             rooms={rentEstate.rooms}
+            forRent={false}
           />
         </div>
       ))}

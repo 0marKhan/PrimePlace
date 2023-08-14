@@ -14,7 +14,10 @@ const Estates = (props) => {
       </div>
       <div className="flex mt-2 font-bold text-xl">
         <GoVerified className="text-green-500" />
-        <span className="ml-3">{millify(props.price)}/monthly AED</span>
+        <span className="ml-3 text-base">
+          AED {millify(props.price)}
+          {props.forRent ? "/monthly" : ""}
+        </span>
       </div>
       <div className="flex mt-1 ml-3 text-sm text-blue-500">
         <FaBed /> <span className="mx-3">{props.rooms}</span>|
