@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { estateActions } from "./store";
 
 const DataFromApi = () => {
@@ -8,8 +8,8 @@ const DataFromApi = () => {
   const dispatch = useDispatch();
 
   // getting states of the rent estates and sale estates from the store
-  const rentEstates = useSelector((state) => state.rentEstates);
-  const saleEstates = useSelector((state) => state.saleEstates);
+  // const rentEstates = useSelector((state) => state.rentEstates);
+  // const saleEstates = useSelector((state) => state.saleEstates);
 
   // functions to handle the dipatch functions
   const copyForRentHandler = (rentArray) => {
@@ -74,7 +74,7 @@ const DataFromApi = () => {
     };
 
     getRentLocations();
-  }, []);
+  });
 
   useEffect(() => {
     const getSalesLocations = async () => {
@@ -82,7 +82,7 @@ const DataFromApi = () => {
         const response = await axios.request(salesOptions);
         const salesArray = response.data.hits;
         // saving the sales estates to the rent slice
-        copyForRentHandler(salesArray);
+        copyForSaleHandler(salesArray);
         console.log(salesArray);
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -90,7 +90,7 @@ const DataFromApi = () => {
     };
 
     getSalesLocations();
-  }, []);
+  });
 
   return <div></div>;
 };
