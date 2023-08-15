@@ -20,6 +20,9 @@ const RentEstateFrontList = () => {
             price={rentEstate.price}
             rooms={rentEstate.rooms}
             forRent={true}
+            photoIDs={rentEstate.photoIDs}
+            geo={rentEstate.geography}
+            amenities={rentEstate.amenities}
           />
         </div>
       ))}

@@ -1,21 +1,22 @@
-import DataFromApi from "./DataFromApi";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
 import "./App.css";
-import RentAHomeHeader from "./components/RentAHomeHeader/RentAHomeHeader";
 import Navbar from "./layout/Navbar";
-import RentEstateFrontList from "./components/RentEstateFrontList/RentEstateFrontList";
-import HomeOnSaleHeader from "./components/HomeOnSaleHeader/HomeOnSaleHeader";
-import SaleEstateFrontList from "./components/SaleEstateFrontList/SaleEstateFrontList";
+import RentHomes from "./pages/RentHomes";
+import SaleHomes from "./pages/SaleHomes";
+import EstateDetails from "./pages/EstateDetails";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <RentAHomeHeader />
-      <DataFromApi />
-      <RentEstateFrontList />
-      <HomeOnSaleHeader />
-      <SaleEstateFrontList />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="rent-homes" element={<RentHomes />} />
+        <Route path="sale-homes" element={<SaleHomes />} />
+        <Route path="estate-details" element={<EstateDetails />} />
+      </Routes>
+    </>
   );
 }
 
