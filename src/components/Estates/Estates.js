@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
+import { estateActions } from "../../store/index";
+
 import { FaBed, FaBath } from "react-icons/fa";
 import { BsGridFill } from "react-icons/bs";
 import { GoVerified } from "react-icons/go";
@@ -6,11 +9,34 @@ import millify from "millify";
 import { Link } from "react-router-dom";
 
 const Estates = (props) => {
+  // dispatch function that make actions in reducer run
+  const dispatch = useDispatch();
+
+  // handler function for copying estate details
+  const setEstateDetailsHandler = () => {
+    const estateDetails = {
+      baths: props.baths,
+      area: props.area,
+      photo: props.photo,
+      price: props.price,
+      rooms: props.rooms,
+      photoIDs: props.photoIDs,
+      geo: props.geo,
+      amenities: props.amenities,
+      contactName: props.contactName,
+      furnishingStatus: props.furnishingStatus,
+      purpose: props.purpose,
+      title: props.title,
+    };
+    dispatch(estateActions.setEstateDetails(estateDetails));
+  };
+
+  // setting area to one decimal place
   const fixedArea = props.area.toFixed(1);
 
   return (
-    <Link to="estate-details">
-      <div className="mt-2 mx-auto bg-white p-4 rounded-lg shadow-md w-[19rem]">
+    <div className="mt-2 mx-auto bg-white p-4 rounded-lg shadow-md w-[19rem]">
+      <Link to="/estate-details" onClick={setEstateDetailsHandler}>
         <div>
           <img
             src={props.photo}
@@ -37,8 +63,8 @@ const Estates = (props) => {
             <span className="mx-3">{fixedArea}sqft</span>
           </div>
         </div>
-      </div>
-    </Link>
+      </Link>
+    </div>
   );
 };
 

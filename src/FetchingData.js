@@ -75,7 +75,7 @@ const FetchingData = ({ onDataFetched }) => {
         const rentArray = response.data.hits;
         // saving the rent estates to the rent slice
         copyForRentHandler(rentArray);
-        console.log(rentArray);
+        // console.log(rentArray);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
@@ -89,7 +89,7 @@ const FetchingData = ({ onDataFetched }) => {
         const salesArray = response.data.hits;
         // saving the sales estates to the rent slice
         copyForSaleHandler(salesArray);
-        console.log(salesArray);
+        // console.log(salesArray);
       } catch (error) {
         console.error("Error fetching data:", error);
       } finally {
