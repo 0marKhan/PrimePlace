@@ -11,14 +11,21 @@ const SaleHomes = () => {
     <>
       <DataFromApi />
       <div className="grid grid-col-1 mt-6 md:grid-cols-2 lg:grid-cols-3 md:mx-16 lg:mx-20">
-        {saleEstate.map((rentEstate, index) => (
+        {saleEstate.map((saleEstate, index) => (
           <div key={index}>
             <Estates
-              baths={rentEstate.baths}
-              area={rentEstate.area}
-              photo={rentEstate.coverPhoto.url}
-              price={rentEstate.price}
-              rooms={rentEstate.rooms}
+              baths={saleEstate.baths}
+              area={saleEstate.area}
+              photo={saleEstate.coverPhoto.url}
+              price={saleEstate.price}
+              rooms={saleEstate.rooms}
+              photoIDs={saleEstate.photoIDs}
+              geo={saleEstate.geography}
+              amenities={saleEstate.amenities}
+              contactName={saleEstate.contactName}
+              furnishingStatus={saleEstate.furnishingStatus}
+              purpose={saleEstate.purpose}
+              title={saleEstate.title}
               forRent={false}
             />
           </div>
