@@ -1,4 +1,6 @@
+import { Button } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 
 const RentAHomeHeader = () => {
   return (
@@ -11,6 +13,9 @@ const RentAHomeHeader = () => {
         <div className="text-base text-gray-500 ">
           Explore Villas, Homes, Apartments and more
         </div>
+        <Link className="flex justify-center mt-3" to="rent-homes">
+          <Button variant="outlined">view more</Button>
+        </Link>
       </div>
     </div>
   );

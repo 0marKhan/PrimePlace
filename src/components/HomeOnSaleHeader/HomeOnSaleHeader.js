@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { Button } from "@mui/material";
 
 const HomeOnSaleHeader = () => {
   return (
@@ -11,6 +13,9 @@ const HomeOnSaleHeader = () => {
         <div className="text-base text-gray-500 ">
           Explore Villas, Homes, Apartments and more
         </div>
+        <Link className="flex justify-center mt-3" to="sale-homes">
+          <Button variant="outlined">view more</Button>
+        </Link>
       </div>
     </div>
   );
