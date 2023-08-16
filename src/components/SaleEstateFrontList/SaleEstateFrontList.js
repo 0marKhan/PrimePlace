@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Estates from "../Estates/Estates";
+import Estates from "../estates/Estates";
 
 const SaleEstateFrontList = () => {
   // getting states of the rent estates from the store
@@ -11,7 +11,7 @@ const SaleEstateFrontList = () => {
   const firstSixSaleEstates = saleEstate.slice(0, 6);
 
   return (
-    <div className="grid grid-col-1 mt-6 md:grid-cols-2 lg:grid-cols-3 md:mx-16 lg:mx-20">
+    <div className="grid grid-col-1 mt-6 mb-10 md:grid-cols-2 lg:grid-cols-3 md:mx-16 lg:mx-20">
       {firstSixSaleEstates.map((saleEstate, index) => (
         <div key={index}>
           <Estates
