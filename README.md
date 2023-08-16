@@ -15,6 +15,8 @@ This project is a website built for practicing and utilizing data from API calls
 
 ## Click on the image to watch a video demo of the website!
 
-<a href="https://youtu.be/bCp-hb7S_us" target="_blank">
-    <img src="https://i9.ytimg.com/vi_webp/bCp-hb7S_us/mq2.webp?sqp=CNCm9KYG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWShDMA8=&rs=AOn4CLCet665ZBJ52S5W8SrKQZQyb3AOjQ" alt="Website demo!" width="220" height="180" border="10"/>
-</a>
+<p align="center">
+  <a href="https://youtu.be/bCp-hb7S_us" target="_blank">
+    <img src="https://i9.ytimg.com/vi_webp/bCp-hb7S_us/mq2.webp?sqp=CNCm9KYG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWShDMA8=&rs=AOn4CLCet665ZBJ52S5W8SrKQZQyb3AOjQ" alt="Website demo!" width="440" height="360" border="10"/>
+  </a>
+</p>
