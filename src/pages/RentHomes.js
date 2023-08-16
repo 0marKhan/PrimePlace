@@ -41,9 +41,7 @@ const RentHome = () => {
         if (roomOption === "0") {
           return estate.rooms === 0;
         } else if (roomOption === "1") {
-          filtered = filtered.filter((estate) => {
-            return estate.rooms === 1;
-          });
+          return estate.rooms === 1;
         } else if (roomOption === "2") {
           return estate.rooms === 2;
         } else if (roomOption === "3") {
