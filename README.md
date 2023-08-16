@@ -13,8 +13,24 @@ This project is a website built for practicing and utilizing data from API calls
 - If an estate is clicked it leads to another page that gives description of the estate
 - Search option added for rent estates and estates for sale that let you filter estates based on price, rooms, and baths
 
-## Click on the image to watch a video demo of the website!
+## Technologies Used
 
+- [React.js](https://reactjs.org/)
+  ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
+
+- [Tailwind CSS](https://tailwindcss.com/)
+  ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white)
+
+- [Material UI](https://mui.com/)
+  ![Material UI](https://img.shields.io/badge/-Material%20UI-0081CB?logo=material-ui&logoColor=white)
+
+- [Axios](https://axios-http.com/)
+  ![Axios](https://img.shields.io/badge/-Axios-46A2F1?logo=axios&logoColor=white)
+
+- [Jest](https://jestjs.io/)
+  ![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white)
+
+## Click on the image to watch a video demo of the website!
 
 <p align="center">
   <a href="https://youtu.be/bCp-hb7S_us" target="_blank">
@@ -22,3 +38,11 @@ This project is a website built for practicing and utilizing data from API calls
   </a>
 </p>
 
+## How to get the project working on your device
+
+- clone the repository
+- navigate to the project directory and install all dependencies
+- create an account on rapid API
+- go to the Bayut API and subscribe to it
+- copy your API key and replace it with the API key currently in the project
+- run the project
