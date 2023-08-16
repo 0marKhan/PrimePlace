@@ -27,6 +27,7 @@ const Estates = (props) => {
       furnishingStatus: props.furnishingStatus,
       purpose: props.purpose,
       title: props.title,
+      forRent: props.forRent,
     };
     dispatch(estateActions.setEstateDetails(estateDetails));
   };
