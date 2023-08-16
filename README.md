@@ -52,4 +52,4 @@ This project is a website built for practicing and utilizing data from API calls
 ## Important Notes
 
 - if the site takes time to load sometimes its because of its high latency mentioned in the site (1,712ms)
-- if on starting no data is rendered it would be because the monthly quota of 500 requests have been used up
+- if on starting no data is rendered it would be because the monthly quota of 500 requests(fixed) have been used up
