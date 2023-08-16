@@ -33,7 +33,7 @@ const SaleSearch = (props) => {
           <select
             value={priceOption}
             onChange={priceOptionHandler}
-            className="rounded-md mt-1 p-1 w-16 md:w-20"
+            className="rounded-md mt-2 p-1 w-16 md:w-20"
           >
             <option value="default" disabled>
               Price
@@ -49,7 +49,7 @@ const SaleSearch = (props) => {
           <select
             value={roomOption}
             onChange={roomChangeHandler}
-            className="rounded-md mt-1 p-1 w-16 md:w-20"
+            className="rounded-md mt-2 p-1 w-16 md:w-20"
           >
             <option value="default" disabled>
               Rooms
@@ -67,7 +67,7 @@ const SaleSearch = (props) => {
           <select
             value={bathOption}
             onChange={bathChangeHandler}
-            className="rounded-md mt-1 p-1 w-16 md:w-20"
+            className="rounded-md mt-2 p-1 w-16 md:w-20"
           >
             <option value="default" disabled>
               Baths
@@ -83,7 +83,7 @@ const SaleSearch = (props) => {
       </div>
 
       <button
-        className="rounded-md bg-gray-400 w-20 h-[2rem] mt-1"
+        className="rounded-md bg-gray-400 w-20 h-[2rem] mt-2"
         type="submit"
       >
         Search

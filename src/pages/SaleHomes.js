@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import Estates from "../components/Estates";
 
@@ -6,6 +6,10 @@ import DataFromApi from "../DataFromApi";
 import SaleSearch from "../components/SaleSearch";
 
 const SaleHomes = () => {
+  // to ensure the page starts from the top
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   // getting states of the rent estates from the store
   const saleEstate = useSelector((state) => state.saleEstates);
 
