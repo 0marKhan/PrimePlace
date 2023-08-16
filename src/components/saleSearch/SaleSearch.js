@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const RentSearch = (props) => {
+const SaleSearch = (props) => {
   // for the search filter
   const [priceOption, setPriceOption] = useState("default");
   const [roomOption, setRoomOption] = useState("default");
@@ -92,4 +92,4 @@ const RentSearch = (props) => {
   );
 };
 
-export default RentSearch;
+export default SaleSearch;
