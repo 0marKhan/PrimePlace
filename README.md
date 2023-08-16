@@ -44,6 +44,6 @@ This project is a website built for practicing and utilizing data from API calls
 - go to the Bayut API and subscribe to it
 - copy your API key and replace it with the API key currently in the project
 - run the project
- ```sh
-   npm start
-   ```
+   ```sh
+     npm start
+     ```
