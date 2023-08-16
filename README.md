@@ -2,7 +2,7 @@
 
 ## Uses Bayut API from RapidAPI's website to get real estate data from API calls and display estates on rent and for sale
 
-This project is a website built for practicing and utilizing data from API calls, and displaying them on the frontend to the user to see. The website was made using these steps
+This project is a website built for practicing and utilizing data from API calls, and displaying them on the frontend for to the user to see. The website was made using these steps
 
 - fetching the data from the Bayut API after registering on the site
 - loading that data and storing it into redux store
