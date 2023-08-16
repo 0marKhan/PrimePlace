@@ -2,7 +2,7 @@
 
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { estateActions } from "./store";
 
 import Backdrop from "@mui/material/Backdrop";
@@ -16,8 +16,8 @@ const FetchingData = ({ onDataFetched }) => {
   const [saleLoading, setSaleLoading] = useState(true);
 
   // getting states of the rent estates and sale estates from the store
-  const rentEstates = useSelector((state) => state.rentEstates);
-  const saleEstates = useSelector((state) => state.saleEstates);
+  // const rentEstates = useSelector((state) => state.rentEstates);
+  // const saleEstates = useSelector((state) => state.saleEstates);
 
   // functions to handle the dipatch functions
   const copyForRentHandler = (rentArray) => {
@@ -100,7 +100,7 @@ const FetchingData = ({ onDataFetched }) => {
     getRentLocations();
     getSalesLocations();
     onDataFetched(); // Notify the parent component that data has been fetched
-  }, []);
+  });
 
   return (
     <div>

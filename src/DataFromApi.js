@@ -4,7 +4,7 @@ import FetchingData from "./FetchingData";
 
 const DataFromApi = ({ onDataFetched }) => {
   const [dataFetched, setDataFetched] = useState(false);
-
+  console.log(dataFetched);
   const rentEstates = useSelector((state) => state.rentEstates);
   const saleEstates = useSelector((state) => state.saleEstates);
 
