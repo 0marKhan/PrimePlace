@@ -12,6 +12,7 @@ This project is a website built for practicing and utilizing data from API calls
 - routing for multiple pages to show home, rent estates and estates for sale done using react-router-dom
 - If an estate is clicked it leads to another page that gives description of the estate
 - Search option added for rent estates and estates for sale that let you filter estates based on price, rooms, and baths
+- Test cases written with jest
 
 ## Technologies Used
 
@@ -47,3 +48,8 @@ This project is a website built for practicing and utilizing data from API calls
    ```sh
      npm start
      ```
+
+## Important Notes
+
+- if the site takes time to load sometimes its because of its high latency mentioned in the site (1,712ms)
+- if on starting no data is rendered it would be because the monthly quota of 500 requests have been used up
