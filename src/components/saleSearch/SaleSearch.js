@@ -41,7 +41,7 @@ const SaleSearch = (props) => {
             <option value="default">All</option>
             <option value="700k-1.0M">700K - 1.0K</option>
             <option value="1.0M-2.0M">1.0M - 2.0M</option>
-            <option value=">2M"> >= 2M</option>
+            <option value=">2M">2M and above</option>
           </select>
         </span>
 

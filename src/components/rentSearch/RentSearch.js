@@ -41,7 +41,7 @@ const RentSearch = (props) => {
             <option value="default">All</option>
             <option value="3k-8k">3K - 8K</option>
             <option value="8k-13k">8k - 13K</option>
-            <option value=">13k"> >= 13K</option>
+            <option value=">13k">13K and above</option>
           </select>
         </span>
 
