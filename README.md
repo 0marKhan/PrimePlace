@@ -15,20 +15,12 @@ This project is a website built for practicing and utilizing data from API calls
 
 ## Technologies Used
 
-- [React.js](https://reactjs.org/)
-  ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
-
-- [Tailwind CSS](https://tailwindcss.com/)
-  ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white)
-
-- [Material UI](https://mui.com/)
-  ![Material UI](https://img.shields.io/badge/-Material%20UI-0081CB?logo=material-ui&logoColor=white)
-
-- [Axios](https://axios-http.com/)
-  ![Axios](https://img.shields.io/badge/-Axios-46A2F1?logo=axios&logoColor=white)
-
-- [Jest](https://jestjs.io/)
-  ![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white)
+- ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
+- ![Redux](https://img.shields.io/badge/-Redux-764ABC?logo=redux&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white)
+- ![Material UI](https://img.shields.io/badge/-Material%20UI-0081CB?logo=material-ui&logoColor=white)
+- ![Axios](https://img.shields.io/badge/-Axios-46A2F1?logo=axios&logoColor=white)
+- ![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white)
 
 ## Click on the image to watch a video demo of the website!
 
