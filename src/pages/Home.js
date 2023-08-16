@@ -1,9 +1,9 @@
 import React from "react";
-import RentAHomeHeader from "../components/rentAHomeHeader/RentAHomeHeader";
+import RentAHomeHeader from "../components/RentAHomeHeader/RentAHomeHeader";
 import DataFromApi from "../DataFromApi";
-import RentEstateFrontList from "../components/rentEstateFrontList/RentEstateFrontList";
-import HomeOnSaleHeader from "../components/homeOnSaleHeader/HomeOnSaleHeader";
-import SaleEstateFrontList from "../components/saleEstateFrontList/SaleEstateFrontList";
+import RentEstateFrontList from "../components/RentEstateFrontList/RentEstateFrontList";
+import HomeOnSaleHeader from "../components/HomeOnSaleHeader/HomeOnSaleHeader";
+import SaleEstateFrontList from "../components/SaleEstateFrontList/SaleEstateFrontList";
 
 const Home = () => {
   return (
