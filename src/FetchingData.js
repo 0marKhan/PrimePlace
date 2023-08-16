@@ -43,7 +43,7 @@ const FetchingData = ({ onDataFetched }) => {
       categoryExternalID: "4",
     },
     headers: {
-      "X-RapidAPI-Key": "83836b648amsh97b5e8ec6497369p134bb7jsna8e79cb8fed1",
+      "X-RapidAPI-Key": process.env.REACT_APP_RAPIDAPI_KEY,
       "X-RapidAPI-Host": "bayut.p.rapidapi.com",
     },
   };
@@ -63,7 +63,7 @@ const FetchingData = ({ onDataFetched }) => {
       categoryExternalID: "4",
     },
     headers: {
-      "X-RapidAPI-Key": "83836b648amsh97b5e8ec6497369p134bb7jsna8e79cb8fed1",
+      "X-RapidAPI-Key": process.env.REACT_APP_RAPIDAPI_KEY,
       "X-RapidAPI-Host": "bayut.p.rapidapi.com",
     },
   };
