@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
-import Estates from "../components/estates/Estates";
+import Estates from "../components/Estates/Estates";
 import DataFromApi from "../DataFromApi";
-import SaleSearch from "../components/saleSearch/SaleSearch";
+import SaleSearch from "../components/SaleSearch/SaleSearch";
 
 const SaleHomes = () => {
   // getting states of the rent estates from the store

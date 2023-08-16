@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Estates from "../estates/Estates";
+import Estates from "../Estates/Estates";
 
 const RentEstateFrontList = () => {
   // getting states of the rent estates from the store

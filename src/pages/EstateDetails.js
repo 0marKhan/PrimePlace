@@ -5,7 +5,7 @@ import millify from "millify";
 import { FaBath, FaBed } from "react-icons/fa";
 import { GoVerified } from "react-icons/go";
 import { BsGridFill } from "react-icons/bs";
-import Amenities from "../components/amenities/Amenities";
+import Amenities from "../components/Amenities/Amenities";
 
 const EstateDetails = () => {
   // to ensure the page starts from the top
