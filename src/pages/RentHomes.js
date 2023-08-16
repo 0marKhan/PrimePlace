@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import Estates from "../components/Estates/Estates";
+
 import DataFromApi from "../DataFromApi";
 import RentSearch from "../components/RentSearch/RentSearch";
 
