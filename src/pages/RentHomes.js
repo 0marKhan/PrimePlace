@@ -62,6 +62,8 @@ const RentHome = () => {
           return estate.baths === 2;
         } else if (bathOption === "3") {
           return estate.baths === 3;
+        } else if (bathOption === "4") {
+          return estate.baths === 4;
         }
         return false;
       });
