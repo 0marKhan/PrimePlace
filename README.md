@@ -33,8 +33,17 @@ This project is a website built for practicing and utilizing data from API calls
 ## How to get the project working on your device
 
 - clone the repository
+   ```sh
+   git clone https://github.com/your_username_/Project-Name.git
+   ```
 - navigate to the project directory and install all dependencies
+  ```sh
+   npm install
+   ```
 - create an account on rapid API
 - go to the Bayut API and subscribe to it
 - copy your API key and replace it with the API key currently in the project
 - run the project
+ ```sh
+   npm start
+   ```
