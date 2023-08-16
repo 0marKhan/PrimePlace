@@ -16,12 +16,13 @@ This project is a website built for practicing and utilizing data from API calls
 
 ## Technologies Used
 
-- ![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white)
-- ![Redux](https://img.shields.io/badge/-Redux-764ABC?logo=redux&logoColor=white)
-- ![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?logo=tailwind-css&logoColor=white)
-- ![Material UI](https://img.shields.io/badge/-Material%20UI-0081CB?logo=material-ui&logoColor=white)
-- ![Axios](https://img.shields.io/badge/-Axios-46A2F1?logo=axios&logoColor=white)
-- ![Jest](https://img.shields.io/badge/-Jest-C21325?logo=jest&logoColor=white)
+- [![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
+- [![Redux](https://img.shields.io/badge/-Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
+- [![Tailwind CSS](https://img.shields.io/badge/-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+- [![Material UI](https://img.shields.io/badge/-Material%20UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)](https://mui.com/)
+- [![Axios](https://img.shields.io/badge/-Axios-46A2F1?style=for-the-badge&logo=axios&logoColor=white)](https://axios-http.com/)
+- [![Jest](https://img.shields.io/badge/-Jest-C21325?style=for-the-badge&logo=jest&logoColor=white)](https://jestjs.io/)
+
 
 ## Click on the image to watch a video demo of the website!
 
