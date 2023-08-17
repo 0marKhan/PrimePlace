@@ -28,7 +28,7 @@ This project is a website built for practicing and utilizing data from API calls
 
 <p align="center">
   <a href="https://youtu.be/bCp-hb7S_us" target="_blank">
-    <img src="[https://cdn.pixabay.com/photo/2016/11/29/03/53/house-1867187_640.jpg](https://www.compass.com/m/258277bf0d5561a8d89d87111d3a17e10c3590fd_img_0_2da11/origin.jpg)" alt="Website demo!" width="240" height="180" border="10"/>
+    <img src="https://www.compass.com/m/258277bf0d5561a8d89d87111d3a17e10c3590fd_img_0_2da11/origin.jpg" alt="Website demo!" width="240" height="180" border="10"/>
   </a>
 </p>
 
