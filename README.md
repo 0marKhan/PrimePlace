@@ -5,7 +5,7 @@
 This project is a website built for practicing and utilizing data from API calls, and displaying them on the frontend for to the user to see. The website was made using these steps
 
 <p align="center">
-    <img src="./prime-place.png" alt="website image" width="280" height="220" border="10"/>
+    <img src="./prime-place.png" alt="website image" width="1347"  border="10"/>
 </p>
 
 - fetching the data from the Bayut API after registering on the site
