@@ -15,6 +15,9 @@ This project is a website built for practicing and utilizing data from API calls
 - two calls are made to the API, the first one to estates on rent and the second to estates on sale which are then displayed to the user
 - routing for multiple pages to show home, rent estates and estates for sale done using react-router-dom
 - If an estate is clicked it leads to another page that gives description of the estate
+  <p align="center">
+    <img src="./estate description.png" alt="website image" width="1347"  border="10"/>
+</p>
 - Search option added for rent estates and estates for sale that let you filter estates based on price, rooms, and baths
 - Test cases written with jest
 
