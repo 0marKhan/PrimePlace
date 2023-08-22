@@ -23,7 +23,7 @@ This project is a website built for practicing and utilizing data from API calls
 - Search option added for rent estates and estates for sale that let you filter estates based on price, rooms, and baths
 
 <p align="center">
-    <img src="./estate description.png" alt="website image" width="1347"  border="10"/>
+    <img src="./search.png" alt="website image" width="1347"  border="10"/>
 </p>
 
 - Test cases written with jest
