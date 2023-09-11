@@ -15,6 +15,8 @@ const FetchingData = ({ onDataFetched }) => {
   const [rentLoading, setRentLoading] = useState(true);
   const [saleLoading, setSaleLoading] = useState(true);
 
+  const [apiLimitReached, setApiLimitReached] = useState(false);
+
   // getting states of the rent estates and sale estates from the store
   // const rentEstates = useSelector((state) => state.rentEstates);
   // const saleEstates = useSelector((state) => state.saleEstates);
@@ -78,6 +80,7 @@ const FetchingData = ({ onDataFetched }) => {
         // console.log(rentArray);
       } catch (error) {
         console.error("Error fetching data:", error);
+        setApiLimitReached(true);
       } finally {
         setRentLoading(false);
       }
@@ -91,6 +94,7 @@ const FetchingData = ({ onDataFetched }) => {
         copyForSaleHandler(salesArray);
         // console.log(salesArray);
       } catch (error) {
+        setApiLimitReached(true);
         console.error("Error fetching data:", error);
       } finally {
         setSaleLoading(false);
@@ -111,6 +115,12 @@ const FetchingData = ({ onDataFetched }) => {
         >
           <CircularProgress color="inherit" />
         </Backdrop>
+      )}
+
+      {apiLimitReached && (
+        <p className=" text-center text-red-600 mt-3">
+          API calls limit reached!
+        </p>
       )}
     </div>
   );
