@@ -1,11 +1,16 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import "@testing-library/jest-dom/extend-expect"; // For extending Jest's expect functionality
-import Navbar from "./Navbar";
+
+import Navbar from "../layout/Navbar";
+import { MemoryRouter } from "react-router-dom"; // Import MemoryRouter to provide routing context
 
 test("Navbar renders correctly", () => {
-  // Render the Navbar component
-  const { getByText } = render(<Navbar />);
+  // Render the Navbar component inside a MemoryRouter to provide routing context
+  const { getByText } = render(
+    <MemoryRouter>
+      <Navbar />
+    </MemoryRouter>
+  );
 
   // Use getByText to query for the rendered text content
   const navbarText = getByText("PrimePlace");
