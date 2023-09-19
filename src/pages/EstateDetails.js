@@ -76,7 +76,7 @@ const EstateDetails = () => {
                 : estateDetails.furnishingStatus}
             </span>
           </div>
-          <div>
+          <div data-testid="amenities-component">
             <Amenities amenities={estateDetails.amenities} />
           </div>
         </div>
