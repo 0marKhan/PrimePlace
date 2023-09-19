@@ -2,7 +2,7 @@ import React from "react";
 import { render } from "@testing-library/react";
 
 import Navbar from "../layout/Navbar";
-import { MemoryRouter } from "react-router-dom"; // Import MemoryRouter to provide routing context
+import { MemoryRouter } from "react-router-dom";
 
 test("Navbar renders correctly", () => {
   // Render the Navbar component inside a MemoryRouter to provide routing context

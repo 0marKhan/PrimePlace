@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Amenities Component matches snapshot 1`] = `
+<div>
+  <div>
+    <div
+      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault mr-1 mb-2 css-1e8dhvr-MuiChip-root"
+    >
+      <span
+        class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+      >
+        Swimming Pool
+      </span>
+    </div>
+    <div
+      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault mr-1 mb-2 css-1e8dhvr-MuiChip-root"
+    >
+      <span
+        class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+      >
+        Gym
+      </span>
+    </div>
+    <div
+      class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault mr-1 mb-2 css-1e8dhvr-MuiChip-root"
+    >
+      <span
+        class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+      >
+        Parking
+      </span>
+    </div>
+  </div>
+</div>
+`;
