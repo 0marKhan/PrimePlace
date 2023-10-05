@@ -2,6 +2,8 @@
 
 ## Uses Bayut API from RapidAPI's website to get real estate data from API calls and display estates on rent and for sale
 
+## [View the website live](https://prime-place.netlify.app)
+
 This project is a website built for practicing and utilizing data from API calls, and displaying them on the frontend for to the user to see. The website was made using these steps
 
 <p align="center">
